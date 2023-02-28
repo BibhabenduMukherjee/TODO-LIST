@@ -17,8 +17,7 @@ async function start (){
      
         logging: false, 
      
-        ttl: false, // ttl* [NEW], can be true for 24h default or a number in MILLISECONDS or a valid Javascript Date object
-     
+        ttl: false, 
         expiredInterval: 2 * 60 * 1000, // every 2 minutes the process will clean-up the expired cache
      
        
