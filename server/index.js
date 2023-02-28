@@ -15,7 +15,7 @@ async function start (){
      
         encoding: 'utf8',
      
-        logging: false,  // can also be custom logging function
+        logging: false, 
      
         ttl: false, // ttl* [NEW], can be true for 24h default or a number in MILLISECONDS or a valid Javascript Date object
      
